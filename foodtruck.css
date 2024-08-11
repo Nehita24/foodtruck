@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 190xp;
+  border: 300px;
+  padding-bottom: 30px;
+}
+ul {
+  display: flex;
+  margin-left: 630px;
+}
+ul li {
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+nav {
+  display: flex;
+  position: fixed;
+  background-color: #ee202e;
+  width: 1300px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+li a:hover {
+  color: yellow;
+}
+.redtruck {
+  background-color: #ee202e;
+  margin-right: 50px;
+  height: 780px;
+  width: 1300px;
+}
+.truckimg img {
+  margin-left: 60px;
+  color: white;
+  margin-top: 40px;
+}
+.truckimg h3 {
+  margin-left: 260px;
+  color: white;
+  font-size: 22px;
+}
+.truckimg h1 {
+  margin-left: 235px;
+  color: white;
+  font-size: 60px;
+}
+.truckimg h2 {
+  margin-left: 255px;
+  color: white;
+  font-size: 60px;
+  margin-top: 30px;
+}
+.truckimg p {
+  margin-left: 105px;
+  color: white;
+  font-size: 20px;
+}
+.redtruck {
+  display: flex;
+}
+/* .truckimg {
+  display: flex; */
+
+.truckimgg1 img {
+  margin-left: 500px;
+  margin-bottom: 720px;
+}
+.truckimg button {
+  height: 50px;
+  width: 150px;
+  border-color: #ee202e;
+  color: #ee202e71;
+  margin-left: 230px;
+}
+.mexican {
+  background-color: #fff9e9;
+  height: 1300px;
+  width: 1300px;
+}
+.food {
+  margin-left: 450px;
+}
+.food span {
+  color: #42170d;
+}
+.food h1 span {
+  color: #ee202e;
+}
+.food h1 {
+  color: #42170d;
+  font-size: 50px;
+}
+.mexicanfood {
+  display: flex;
+  margin-top: 90px;
+}
+.foodimg1 {
+  margin-left: 38px;
+}
+.foodimg2 {
+  margin-left: 38px;
+}
+.foodimg3 {
+  margin-left: 38px;
+}
+.pizza {
+  display: flex;
+  margin-top: 100px;
+}
+.freashfood {
+  margin-left: 80px;
+}
+.freashfood h1 {
+  margin-top: 17px;
+  font-size: 40px;
+  color: #42170d;
+  margin-left: 10px;
+}
+.freashfood h1 span {
+  color: #ee202e;
+  margin-right: 20px;
+}
+.picturefood {
+  margin-left: 40px;
+}
+.freashfood p {
+  color: #42170d;
+  padding: 10px;
+  margin: 10px;
+}
+.freashfood img {
+  margin-top: 10px;
+}
+.logoo {
+  height: 500px;
+  width: 350px;
+  background-color: #ee202e;
+}
+.logoo img {
+  margin-top: 170px;
+  margin-left: 20px;
+}
+.meats1 {
+  display: flex;
+}
+.redbackgroud {
+  background-color: white;
+  /* margin-bottom: 50px; */
+  display: flex;
+  height: 550px;
+}
+.special {
+  margin-left: 150px;
+  margin-top: 240px;
+}
+.special h1 {
+  font-size: 50px;
+  color: #42170d;
+}
+.special h1 span {
+  color: #ee202e;
+}
+.special p {
+  margin: 16px;
+  color: #42170d;
+}
+.special button {
+  height: 40px;
+  width: 280px;
+  border-color: #42170d;
+  box-shadow: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.yellow {
+  background-color: #ffcc40;
+  height: 600px;
+  width: 1300px;
+}
+.place {
+  margin-top: 130px;
+  display: flex;
+}
+.place11 button {
+  height: 46px;
+  width: 120px;
+  color: #ee202e;
+  border-color: #42170d;
+  margin-left: 65px;
+  margin-top: 13px;
+}
+.place11 p {
+  color: #42170d;
+  margin-left: 60px;
+
+  width: 370px;
+}
+.place11 h1 {
+  margin-top: 100px;
+  margin-left: 60px;
+  font-size: 50px;
+  color: #42170d;
+}
+.imagemap img {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.yellow h2 {
+  margin-left: 100px;
+  font-size: 40px;
+}
+.newyour {
+  height: 80px;
+  width: 230px;
+  border: solid;
+  border-color: #42170d;
+  margin-left: 80px;
+  display: flex;
+  margin-top: 20px;
+}
+.newyour p {
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 20px;
+}
+.bi-geo-alt {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.los {
+  height: 80px;
+  width: 230px;
+  border: solid;
+  border-color: #42170d;
+  margin-left: 30px;
+  display: flex;
+  margin-top: 20px;
+}
+.los p {
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 20px;
+}
+.cities {
+  display: flex;
+}
+.denver {
+  height: 80px;
+  width: 230px;
+  border: solid;
+  border-color: #42170d;
+  margin-left: 30px;
+  display: flex;
+  margin-top: 20px;
+}
+.denver p {
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 20px;
+}
+.new {
+  height: 80px;
+  width: 230px;
+  border: solid;
+  border-color: #42170d;
+  margin-left: 30px;
+  display: flex;
+  margin-top: 20px;
+}
+.new p {
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 20px;
+}
+.redbackgroud {
+  background-color: white;
+}
+.bloodres {
+  background-color: #780a34;
+  height: 980px;
+  width: 1300px;
+}
+.cooking {
+  margin-left: 400px;
+  margin-top: 60px;
+}
+.cooking img {
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.cooking h1 {
+  font-size: 60px;
+  color: white;
+}
+.cooking span {
+  color: #ee202e;
+  margin-left: 60px;
+}
+.cooking p {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.one512 {
+  margin-left: 50px;
+  margin-top: 130px;
+}
+.one512 h1 {
+  color: white;
+  margin-left: 35px;
+}
+.one512 p {
+  color: white;
+  font-size: 20px;
+}
+.numbers {
+  display: flex;
+}
+.one33 {
+  margin-top: 130px;
+  margin-left: 40px;
+}
+.one33 h1 {
+  color: white;
+  margin-left: 35px;
+}
+.one33 p {
+  color: white;
+  font-size: 20px;
+}
+.backgroundpic {
+  display: flex;
+}
+.footer1 {
+  display: flex;
+}
+.footer {
+  background-color: #ee202e;
+  height: 550px;
+  width: 1300px;
+}
+.vorter {
+  margin-top: 110px;
+  color: white;
+  margin-left: 30px;
+}
+.vorter p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.link {
+  margin-left: 160px;
+  margin-top: 110px;
+  color: white;
+}
+.link p {
+  font-size: 10px;
+}
+.contact {
+  margin-left: 80px;
+  margin-top: 110px;
+  color: white;
+}
+.contact p {
+  font-size: 20px;
+}
+.footer p {
+  color: white;
+}
+.betheme {
+  margin-top: 120px;
+  margin-left: 300px;
+}
